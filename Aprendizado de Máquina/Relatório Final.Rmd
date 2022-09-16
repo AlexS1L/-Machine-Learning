@@ -1,0 +1,124 @@
+---
+output:
+  pdf_document:
+    latex_engine: xelatex
+    fig_crop: no
+    number_sections: yes
+  html_document:
+    df_print: paged
+  word_document: default
+fontsize: 11pt
+indent: true
+documentclass: article
+geometry: margin=2cm 
+header-includes:
+- \usepackage[brazil, portuguese]{babel}
+- \usepackage[fixlanguage]{babelbib}
+- \usepackage{longtable}
+- \usepackage{booktabs}
+- \usepackage{indentfirst}
+- \usepackage{float}
+- \restylefloat{table}
+- \usepackage{graphicx}
+- \usepackage[utf8]{inputenc}
+- \usepackage{makecell}
+- \usepackage{placeins}
+- \floatplacement{figure}{H}
+- \renewcommand{\figurename}{Figura}
+- \renewcommand{\tablename}{Tabela}
+- \renewcommand{\listfigurename}{Lista de Figuras}
+- \renewcommand{\listtablename}{Lista de Tabelas}
+- \renewcommand{\contentsname}{Sumário}
+- \usepackage{caption}
+- \captionsetup[figure]{font=scriptsize}
+- \captionsetup[table]{font=scriptsize}
+- \usepackage[square,sort]{natbib}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, 
+  message = FALSE, 
+  warning = FALSE,
+  cache = FALSE,
+  fig.align = "center", fig.pos = "H", fig.height = 3, fig.width = 5
+  )
+options(
+  digits = 3, 
+  OutDec = ",", 
+  digits = 3, scipen = 4, 
+  xtable.comment = FALSE
+  )
+```
+
+```{r lib}
+#Pacotes utilizados
+
+```
+
+
+\begin{center}
+
+\thispagestyle{empty}
+
+\vspace*{-1.5cm}
+\hspace*{-0.1cm} {\rule[-1ex]{16cm}{0.01cm}}
+\begin{center}
+\hspace{-1cm}
+\begin{minipage}[s]{2cm}
+\includegraphics[width=2.4cm]{unicamp.jpg}
+\end{minipage}
+\begin{minipage}[s]{11cm}
+{\begin{center} {\LARGE Universidade Estadual de Campinas}\\ \vspace{0.2 cm}
+{Instituto de Matemática, Estatística e Computação Científica }\\ \vspace{0.1 cm}
+{Departamento de Estatística}\\
+\end{center}}
+\end{minipage}\begin{minipage}[s]{1 cm}
+\includegraphics[width=2.0 cm]{imecc.png}
+\end{minipage}
+\end{center}
+
+\vspace{3.3 cm}
+
+\Large{\textbf{ME712/ME812 - Consultoria Estatística}}\\
+\Large{\textbf{Relatório Final}}
+
+\vspace{3.3 cm}
+
+\Large{\textbf{ANÁLISE DA INCLUSÃO E MOBILIDADE SOCIAL DOS EGRESSOS DAS LICENCIATURAS DA UNICAMP}}
+
+\vspace{3.6 cm}
+
+
+\large{\bf{Grupo:}}\\ 
+\large{Nome \\
+Hellen Mayra Ribeiro Freitas 236482 \\ 
+Nome \\ 
+Nome}\\[0.2cm] 
+\large{\bf{Orientadora:}} \large{Prof. Dra. Larissa Ávila Matos} 
+
+
+
+
+\vspace{3.6 cm}
+
+{\small{CAMPINAS}}\\ {\small{2022}}
+
+\hspace*{-0.1cm} {\rule[-1ex]{16cm}{0.01cm}}
+\end{center}
+
+
+
+# Introdução
+
+
+# Banco de Dados
+
+
+# Análise Descritiva
+
+
+# Referências
+
+
+# Apêndice
